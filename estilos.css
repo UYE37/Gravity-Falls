@@ -1,0 +1,107 @@
+/*Hoja de Estilo en Cascada*/
+
+@font-face{
+	font-family:Old Press; /*nombre de la fuente*/
+	src:url("fuente/Old Press.ttf");/*nombre del archivo*/
+}
+body{
+	background-color:#e4d8d8; /*color de fondo*/
+	background-image: url("imagenes/fondo.gif");
+}
+h1{
+	color:#665049; /* coloca color de texto*/
+	text-align:center; /*alineación centrada*/
+	border-bottom-style:solid;
+	border-bottom-width:4px;
+	font-family:Old Press;
+	font-size:70px; /*tamaño de fuente 50 pixeles*/
+	
+ }
+ p{
+		color:#5c1303;/* coloca color de texto*/
+		text-align:justify;/*alineación justificada*/
+		font-size:18px; /*tamaño de feuente 18 pixeles*/
+		line-height:25px; /*interlineado*/
+		margin-top:20px; /*margen superior*/
+		margin-bottom:40px; /*margen inferior*/
+		margin-left:10%; /*margen izquierso*/
+		margin-right:10%; /*margen derecho*/
+	}
+	ul{
+		color:#5c1303;/* coloca color de texto*/
+		font-size: 18px; /*tamaño de fuente 18 pixeles*/
+		line-height:20px; /*interlineado*/
+		margin-left:15% /*margen izquierdo*/
+	}
+	ol{
+		color:#5c1303;/* coloca color de texto*/
+		font-size: 18px; /*tamaño de fuente 18 pixeles*/
+		line-height:20px; /*interlineado*/
+		margin-left:15% /*margen izquierdo*/
+	}
+	h2{
+	color:#8f6d29; /* coloca color de texto*/
+	border-bottom-style:solid;
+	border-bottom-width:2px;
+	font-family:ZTTalk-Bold;
+	font-size:25px; /*tamaño de fuente 50 pixeles*/
+    }
+    h3{
+	color:#665049; /* coloca color de texto*/
+	border-bottom-width:3px;
+	font-family:ZTTalk-Bold;
+	font-size:20px; /*tamaño de fuente 50 pixeles*/
+	}
+	.diarios{ 
+ 	margin-left:15%; /*margen izquierdo*/
+	}
+	.inicio{
+	margin-left:9%; /*margen izquierdo*/
+	}
+	 img{
+		text-align:center; /*alineación centrada*/
+		display : block;
+        margin : auto;
+		box-shadow:6px 6px 8px #414247;
+	}
+	.lugares{
+	    margin-top:20px; /*margen superior*/
+		margin-left:8%; /*margen izquierdo*/
+		display:inline;
+	}
+	.personajes{
+		text-align:center; /*alineación centrada*/
+		display : block;
+
+		box-shadow:6px 6px 8px #414247;
+	}
+    a:link, a:visited{ /*cuando se carga la apgina*/
+		color:#5e0c0c;
+        font-weight:bold; /* negrita */
+		text-decoration:none; /*saco el subrayado*/
+		margin-left:1%; /*margen izquierso*/
+		margin-right:1%; /*margen derecho*/
+
+	}
+	
+	a:hover{/*cuando le pasamos el mouse por encima*/
+	color:#8f6d29;
+	}
+	
+	
+	table{
+	color:#5e0c0c;
+	margin-top:20px; /*margen superior*/
+	margin-bottom:40px; /*margen inferior*/
+	margin-left:10%; /*margen izquierso*/
+	margin-right:10%; /*margen derecho*/
+	text-align:center; /*alineación centrada*/
+	background-color:#bdada5; /*color de fondo*/
+	box-shadow:6px 6px 8px #414247;
+	}
+	.tabla{
+	margin-left:20%; /*margen izquierso*/
+	}
+	.tabla1{
+		margin-left:25%; /*margen izquierso*/
+	}
